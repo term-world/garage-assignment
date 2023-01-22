@@ -90,12 +90,12 @@
     category: RoboVac Repair
     check: MatchFileFragment
     options:
-      fragment: "*"
+      fragment: " * "
       count: 1
 - workshop/RoboVac.py:
   - description: RoboVac.py performs division
     category: RoboVac Repair
-    check: MatchFileFragment
+    check: MatchFileRegex
     options:
-      fragment: "/"
-      count: 0
+      regex: '\s\/(\/)?\s'
+      count: 1

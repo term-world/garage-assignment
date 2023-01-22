@@ -17,7 +17,7 @@ class KeypadCracker(FixtureSpec):
     def first_half(self, first_digit: int = 0, second_digit: int = 0) -> str:
 
         ###################################################
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         # TODO: Prompt user to enter a number (1-12) from the keyboard
         
         # TODO: Convert birth_month to integer; store as birth_month_number
@@ -37,7 +37,7 @@ class KeypadCracker(FixtureSpec):
 
         # TODO: To derive the second digit, subtract 1 from the first digit
         
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
 
         return f"{first_digit}{second_digit}"
@@ -45,7 +45,7 @@ class KeypadCracker(FixtureSpec):
     def second_half(self, third_digit: int = 0, fourth_digit: int = 0) -> str:
 
         ###################################################
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         # TODO: Prompt user to enter a number (1-31) from the keyboard
     
         # TODO: Convert birthday to integer; store as birth_day_number
@@ -71,7 +71,7 @@ class KeypadCracker(FixtureSpec):
 
         # TODO: Add 3 to running_number
 
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
 
         fourth_digit = running_number % 5

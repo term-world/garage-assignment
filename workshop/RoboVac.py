@@ -15,21 +15,21 @@ class RoboVac(FixtureSpec):
     def battery_usage(self, room_x: int = 0, room_y: int = 0) -> int:
         """Calculate battery usage using room_x, room_y"""
         ###################################################
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
 
         # TODO: Calculate square footage of the room
 
         # TODO: Calculate the battery drain using a variable identifier
         #       with the name of "drain" 
 
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
         return drain
 
     def sense_room(self) -> (int, int):
         """Get measurements of the room from input prompts"""
         ###################################################
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
 
         # TODO: Take user input of room width using variable idenitifer
         #       "room_x"
@@ -37,7 +37,7 @@ class RoboVac(FixtureSpec):
         # TODO: Take user input of room length using variable idenitifer
         #       "room_y"
 
-        ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
+        ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
         return room_x, room_y
 
