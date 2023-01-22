@@ -1,3 +1,7 @@
 {
-  "code": 2134
+  "code": 2134,
+  "garage": 1089,
+  "garage_x": 33,
+  "garage_y": 33,
+  "battery": 10
 }
