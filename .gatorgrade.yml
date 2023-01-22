@@ -66,9 +66,9 @@
 - KeypadCracker.py:
   - description: KeypadCracker.py performs division
     category: Code Crackin'
-    check: MatchFileFragment
+    check: MatchFileRegex
     options:
-      fragment: " / "
+      regex: '\s\/(\/)?\s'
       count: 1
 - workshop/RoboVac.py:
   - description: No TODO markers in RoboVac.py
