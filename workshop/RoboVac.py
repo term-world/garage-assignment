@@ -16,8 +16,12 @@ class RoboVac(FixtureSpec):
         """Calculate battery usage using room_x, room_y"""
         ###################################################
         ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
-        sqft = room_x * room_y
-        drain = (sqft * 5) // 60
+
+        # TODO: Calculate square footage of the room
+
+        # TODO: Calculate the battery drain using a variable identifier
+        #       with the name of "drain" 
+
         ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
         return drain
@@ -26,8 +30,13 @@ class RoboVac(FixtureSpec):
         """Get measurements of the room from input prompts"""
         ###################################################
         ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
-        room_x = int(input("Enter room width: "))
-        room_y = int(input("Enter room length: "))
+
+        # TODO: Take user input of room width using variable idenitifer
+        #       "room_x"
+
+        # TODO: Take user input of room length using variable idenitifer
+        #       "room_y"
+
         ## WORK HERE - MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
         return room_x, room_y
@@ -42,11 +51,17 @@ class RoboVac(FixtureSpec):
 
     def use(self, room_x: int = 0, room_y: int = 0) -> None:
         """Operate the Groomba"""
-        width, length = self.sense_room()
+        try:
+            width, length = self.sense_room()
+        except:
+            print("Looks like there's an issue with the room calculation.")
         # Subtract used battery
-        self.battery -= self.battery_usage(
-          width, length
-        )
+        try:
+            self.battery -= self.battery_usage(
+                width, length
+            )
+        except:
+            print("Looks like there's an issue with the battery usage calculation.")
 
 def main():
   
