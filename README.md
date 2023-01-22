@@ -29,7 +29,7 @@ That's right, none of the new `term-world` inhabitants have access to their `gar
 
 Not only do you have a `house`, but you also have a handy `garage` -- a place where you can complete some experimental devices using your `workshop`. Like with everything `term-world` (as the news above tells us) there's a catch: the garage has a keycode which no one wrote down, and no one remembers. We have to use a device to -- there's no way around it -- _break in_.
 
-Once in, have a look around your `31` x `33` garage!
+Once in, have a look around your `WIDTH` x `LENGTH` garage!
 
 In this set of activities we cover:
 
@@ -67,9 +67,12 @@ This time around, we will `clone` our repositories. This is the way we'll intera
 The process has two (2) major parts.
 
 ### GitHub
+
 - On your GitHub assignment page (i.e. _this_ page) locate the green `Code` button
 - Select the `SSH` link from options presented
 - `Copy` or click the button at the far right of the textbox on that screen
+
+![TW - Clone link diagram](https://user-images.githubusercontent.com/1552764/213940345-2e62ec2e-e017-40ff-b325-745f9e731041.png)
 
 ### `term-world`
 
@@ -102,11 +105,11 @@ The GitHub platform is a place to store your work. So, it makes some sense that 
 Bottom line: we need to tell git that there have been changes.
 
 Observe the list of files you've changed and add them to a staging area using the + button to the right of each file
-Once these have been "staged," attach a message to what we call a commit -- a "packaging" of the files to send to GitHub
-To transmit this newly-assembled packaged, locate the Commit & Push option
-The steps of the process are illustrated below.
+Once these have been "staged," attach a message to what we call a commit -- a "packaging" of the files to send to GitHub.
 
-![TW - Stage Commit Push](https://user-images.githubusercontent.com/1552764/213932192-b06e7640-7883-4fe5-93a2-07e38bf141e6.png)
+To follow this process:
+
+![TW - Commit and Sync](https://user-images.githubusercontent.com/1552764/213940290-23b12a8a-6283-492c-ab1c-66a801ba815e.png)
 
 ## `term-world` Server Backup Policy
 
