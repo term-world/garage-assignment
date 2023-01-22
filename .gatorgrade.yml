@@ -40,35 +40,35 @@
     category: Code Crackin'
     check: MatchFileFragment
     options:
-      fragment: "int("
+      fragment: " int("
       count: 1
 - KeypadCracker.py:
   - description: KeypadCracker.py performs multiplication
     category: Code Crackin'
     check: MatchFileFragment
     options:
-      fragment: "*"
+      fragment: " * "
       count: 1
 - KeypadCracker.py:
   - description: KeypadCracker.py performs subtraction
     category: Code Crackin'
     check: MatchFileFragment
     options:
-      fragment: "*"
+      fragment: " - "
       count: 1
 - KeypadCracker.py:
   - description: KeypadCracker.py performs addition
     category: Code Crackin'
     check: MatchFileFragment
     options:
-      fragment: "+"
+      fragment: " + "
       count: 1
 - KeypadCracker.py:
   - description: KeypadCracker.py performs division
     category: Code Crackin'
     check: MatchFileFragment
     options:
-      fragment: "/"
+      fragment: " / "
       count: 1
 - workshop/RoboVac.py:
   - description: No TODO markers in RoboVac.py
