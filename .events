@@ -7,7 +7,8 @@ if [[ "$(jq .garage .flags)" == null ]]; then
 Checkpoint.set_flag('garage', ${footage})
 Checkpoint.set_flag('garage_x', ${width})
 Checkpoint.set_flag('garage_y', ${length})
-Checkpoint.set_flag('battery', ${battery})"
+Checkpoint.set_flag('battery', ${battery})
+Checkpoint.set_flag('code',2134)"
   sed -i "s/WIDTH/$width/" README.md
   sed -i "s/LENGTH/$length/" README.md
 fi
